@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Exercicio 24 </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div>
+            <div>
+                <label for="preco"> Preço </label>
+                <input type="number" id="preco"> 
+            </div>
+            <div>
+                <label for="categoria"> Categoria </label>
+                <select  id="categoria">
+                    <option value="1"> Limpeza </option>
+                    <option value="2"> Alimentação </option>
+                    <option value="3"> Vestúario </option>
+                </select>
+            </div>
+            <div>
+                <label> recisa refrigeração </label>
+                <!-- Mutualmente exclusivos pois tem o mesmo name -->
+                <input type="radio" name="situacao" id="R" checked> Sim
+                <input type="radio" name="situacao" id="N" > Não
+            </div>
+            <div>
+                <button type="button" onclick="calcular()"> Calcular </button>
+            </div>
+            <div>
+                Resultados:
+                <h2>
+                    Aumento: <h3 id="aumento"> </h3>
+                    Imposto: <h3 id="imposto"> </h3>
+                    Novo preço <h3 id="novo"> </h3>
+                    Classificação: <h3 id="classificacao"> </h3>
+                </h2>
+            </div>
+        </div>
+    </body>
+    <script src="/js/ex24.js"></script>
+</html>
