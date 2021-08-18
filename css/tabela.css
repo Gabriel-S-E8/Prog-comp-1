@@ -1,0 +1,21 @@
+#conteudo{
+    width: 800px;
+    margin: 50px auto;
+    outline: black solid 2px;
+}
+#tabela{
+    font-family: Arial, Helvetica, sans-serif; /* Tipo da fonte */
+    width: 100%; /* Ocupa 100% dos 800 pixels */
+    border-collapse: collapse; /* Retirar os espaços entre as bordas das células */
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px; /* espaçamento interno de cada célula */
+}
+th {
+    background-color: green; /* cabeçalho com o fundo verde */
+    color: white; /* cabeçalho com texto branco */ 
+}
+tr:hover { /* quando passar o mouse em cima da linha */
+    background-color: yellow;
+}

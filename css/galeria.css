@@ -1,0 +1,20 @@
+/*css */
+.galeria {
+    margin: 5px; /* espaçamento externo de 5px */
+    border: 1px solid #ccc; /* borda solida com cor */
+    float: left; /* flutuação ou alinhamento á esquerda */
+    width: 180px; /* largura de 180px */ 
+  }
+  img {
+      width: 100%; /* cobrem 100% da largura da div da galeria */ 
+      height: auto; /* altura da imagem pe a altura dela  400px */
+  }
+  #conteudo {
+      width: 800px; /* largura da área que engloba as galerias */
+      /* centralizando a area e tambem criando espaçamento externo de 60px */
+      margin: 60px auto;
+  }
+  .descricao {
+      padding: 15px; /* espaçamento interno */
+      text-align: center; /* alinhamento do texto */
+  }

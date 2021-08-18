@@ -1,0 +1,13 @@
+#formulario {
+    outline: black 2px solid; /* borda externa de 2px de Largura */
+    padding: 30px; /* espaçamento interno de 30 pixels (bolinha) */
+    width: 550px; /* largura do formulario */
+    margin: 40px auto; /* espaçamento externo de 40 pixels */
+    background-color: whitesmoke;
+    }
+    #divpeso, #divAltura, #botao{
+        margin: 10px;
+    }
+    h2 {
+        color:black;
+    }

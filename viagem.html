@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Exemplo 2 </title>
+        <meta charset="utf-8"/> <!-- Sistema de codificação aceita ç á à â-->
+        <!-- meta é auto-explicação, falar de si mesmo -->
+
+        <link rel="stylesheet" href="/css/viagem.css">
+
+        <link rel="stylesheet" href="css/menu.css">
+
+        <script type="text/javascript" src="js/viagem.js"> </script>
+        
+    </head>
+    <body>
+        <nav id="menu"> <!-- Menu da Navegação-->
+            <ul> <!-- unorded list ou Lista Não ordenada -->
+                 <!-- a significa âncora (link) -->
+                <li> <a href="home.html"> Home </a> </li> <!-- List item ou Item da Lista-->
+                <li> <a href="imc.html"> IMC </a> </li>
+                <li> <a href="viagem.html"> Custo de Viagem> </a> </li>
+                <li> <a href="sobre.html"> Sobre </a> </li>
+                <li> <a href="galeria.html"> Galeria de imagens </a> </li>
+                <li> <a href="videos.html"> Videos do YouTube </a> </li>
+                <li> <a href="tabela.html"> Tabela nutricional </a> </li>
+                <li>
+                    <div class="menu-suspenso">
+                        Calculador do imc 
+                        <div class="conteudo-menu-suspenso">
+                            <a href="imc-homen.html"> Homen </a>
+                            <a href="ima-mulher.html"> Mulher </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="formulario"> <!-- Tambem poderia colocar id="formulario" para copiar (reutilizar) o codigo de css da div de cima relacionada ao imc -->
+            <h3> Calculadora de custo de viagem </h3>
+            <div id=divPedagio1>
+                <label for="pedagio1"> Pedagio 1 </label>
+                <input type="number" id="pedagio1"/>
+            </div>
+            <div id="divPedagio2">
+                <label for="pedagio2"> Pedagio 2 </label>
+                <input type="number" id="pedagio2"/>
+            </div>
+            <div id="Combustivel1">
+                <label for="combustivel"> Combustivel </label>
+                <input type="number" id="combustivel"/>
+            </div>
+            <div id="botao2">
+                <button onclick="Viagem()" type="button"> Comfirma </button>
+            </div>
+        </div>
+    </body>
+</html>

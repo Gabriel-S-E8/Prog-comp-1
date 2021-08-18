@@ -1,0 +1,39 @@
+#menu ul{
+    padding: 5px; /*espaçamento interno (conteúdo da lista) de 0px da Lista */
+    width: 1250px;
+    margin: 10px auto; /* epaçamento externo
+    background-color:whitesmoke; /* cor de Fundo da Lista */
+    list-style:none; /* Lista não terá bolinhas - os itens */
+    outline:black 2px solid;
+}
+#menu ul li {
+    display: inline; /* os itens da lista ficarão em uma linha única */
+    padding: 30px;
+}
+/* Regra se aplica ao link dos itens da lista no menu*/
+#menu ul li a {
+    background-color: none; /* Cor de fundo*/
+    color:black; /* Cor do Texto*/
+    text-decoration: none; /* Sem Sublinhado*/
+    border-bottom: 3px solid #050505; /* Borda em baixo com sitema de cores X (Proxima aula)*/
+    
+}
+.menu-suspenso{
+    position: relative; /* conteúdo atual acompanha o conteúdo da pagina */
+    display: inline-block; /* mostra conteudo em única linha */
+}
+.conteudo-menu-suspenso{
+    display: none;
+    position: absolute; /* conteúdo atual não acompanha o conteudo da pagina */
+    background-color: lightgray;
+    min-width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+}
+.menu-suspenso:hover .conteudo-menu-suspenso{ /* quando passar o mouse */
+    display: block; /* coloca para mostrar*/
+}
+.conteudo-menu-suspenso a{
+    display: block; /* faz aparecer cada link em linha unica */
+    padding: 4px;
+    text-decoration: none; /* link não fica sublinhado */
+}
