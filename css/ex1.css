@@ -1,0 +1,22 @@
+#caixa{
+    outline: solid black 2px;
+    width: 400px;
+    margin: 40px auto;
+    background-color: lightgray;
+}
+.conteudo{
+    padding: 5px;
+    color: black;
+}
+.botão{
+    padding: 2px;
+}
+#km{
+    margin-left: 15px;
+}
+#kml {
+    margin-left: 15px;
+}
+#vl{
+    margin-left: 15px;
+}
